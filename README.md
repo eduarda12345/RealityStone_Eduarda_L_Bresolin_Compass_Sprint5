@@ -11,6 +11,10 @@ Site testado
 
 https://front.serverest.dev/login
 
+Index of /103.0.5060.53/ instalar para fazer alguma teste no google chrome
+
+https://chromedriver.storage.googleapis.com/index.html?path=103.0.5060.53/
+
 Cucumber dowload Rubygems
 
 bundle install
