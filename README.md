@@ -4,7 +4,8 @@ link do mapa mental
 
 https://mm.tt/map/2350032244?t=NAGYdnk2UU
 
-visual studio 1,58
+visual studio 1.58
+
 ruby 2.7
 
 Site testado
@@ -15,18 +16,22 @@ Index of /103.0.5060.53/ instalar para fazer alguma teste no google chrome
 
 https://chromedriver.storage.googleapis.com/index.html?path=103.0.5060.53/
 
-Cucumber dowload Rubygems
+Cucumber dowload Rubygems 
 
 bundle install
 
 gem install cucumber
 
-cucumber --init
-
 rspec dowload Rubygems
-
-bundle install
 
 gem install rspec
 
-rspec --init
+Usar esse documento do capybara para fazer projeto
+
+https://github.com/teamcapybara/capybara
+
+gem install capybara
+
+Selenium-webdriver dowload Rubygems
+
+gem install selenium-webdriver
