@@ -37,4 +37,4 @@ https://github.com/cucumber/cucumber-ruby
 
 cucumber --init (para rodar os projetos)
 
-Pedi um codigos do daniel e ajudar dos colegas e pegue alguma coisa na internet e modifiquei algumas coisa do codigos do jacques 
+Pedi um codigos do daniel e ajudar dos colegas bolsa e pegue alguma coisa na internet e modifiquei algumas coisa do codigos do jacques 
