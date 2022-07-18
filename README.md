@@ -8,7 +8,15 @@ visual studio 1.58
 
 ruby 2.7
 
-Site testado
+cucumber
+
+capybara 
+
+site_webdriver
+
+site_prism
+
+Site testado:
 
 https://front.serverest.dev/login
 
@@ -16,22 +24,17 @@ Index of /103.0.5060.53/ instalar para fazer alguma teste no google chrome
 
 https://chromedriver.storage.googleapis.com/index.html?path=103.0.5060.53/
 
-Cucumber dowload Rubygems 
+Cucumber, rspec, capybara, selenium_webdriver, dowload Rubygems 
 
-bundle install
+gem install cucumber, gem install rspec, gem install capybara, gem install selenium-webdriver
 
-gem install cucumber
+bundle install(para instalar todas as dependecias) 
 
-rspec dowload Rubygems
-
-gem install rspec
-
-Usar esse documento do capybara para fazer projeto
-
+Usaram esses documentos do capybara,site_prism,cucumber, para fazer projeto
 https://github.com/teamcapybara/capybara
+https://github.com/site-prism/site_prism
+https://github.com/cucumber/cucumber-ruby
 
-gem install capybara
+cucumber --init (para rodar os projetos)
 
-Selenium-webdriver dowload Rubygems
-
-gem install selenium-webdriver
+Pedi um codigos do daniel e ajudar dos colegas e pegue alguma coisa na internet e modifiquei algumas coisa do codigos do jacques 
