@@ -1,0 +1,6 @@
+default -p prd
+defaulthtml -p html
+
+#Enviromment
+html: ENVIROMMENT = "html"
+prd:  ENVIROMMENT = "prd"
