@@ -1,26 +1,21 @@
 #language: pt
 
-Funcionalidade: logar com usuario
+Funcionalidade: logar com usuario com conta ja cadastrada
 
-    SENDO que podera navegar na pagina de lista produto para adicionar no carinho 
-    QUERO adiciona produtos no carinho 
-    PARA finalizar a compra ou cancelar 
+    SENDO fazendo o login podera navegar na paginas do site
+    QUERO como login valido no site 
+    PARA podera navegar pelas paginas do ecommerce
 
-Contexto: Estar na pagina de produtos adicionando comprar no carinho 
-Dado clicar no produtos na pagina e clicar no botao para colocar no carinho 
-Quando 
-E depois indo na <pagina do carinho> para fazer <compra> ou <cancelar>
-
-Contexto: Estar na pagina de no carinho  
-Quando adicionado o produto no carinho 
-Então Podera tirar do carinho o produto ou comprar 
+Contexto: lojar com usuario ja cadastrada
+Dado Fazer login com conta ja cadastrada
+Quando Mas com campo prencido corretamentamente
+Entao loga no ecommerce para navegar 
 
 Exemplos:
 
-||||
-||||
-||||
-||||
-||||
-||||
-||||
+|email             |password  |msg                               |
+|teste@gmail.com   |teste     |Login realizado com sucesso       |
+|teste@yahoo.com   |teste01   |Email e/ou senha inválidos        |
+|teste@hotmail.com |          |Password não pode ficar em branco | 
+|                  |teste02   |Email não pode ficar em branco    |
+|teste@gmail.      |teste3     |Email e/ou senha válidos         |
