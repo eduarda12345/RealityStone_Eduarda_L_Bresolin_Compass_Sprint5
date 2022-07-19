@@ -4,6 +4,8 @@ link do mapa mental:
 
 https://mm.tt/map/2350032244?t=NAGYdnk2UU
 
+Programas depencias que usei para esses projetos:
+
 visual studio Code:  1.58
 
 ruby: 2.5 
@@ -12,7 +14,7 @@ Site testado:
 
 https://front.serverest.dev/login
 
-Index of /103.0.5060.53/ instalar para fazer alguma teste no google chrome
+Index of /103.0.5060.53/ instalar para fazer alguma teste no google chrome:
 
 https://chromedriver.storage.googleapis.com/index.html?path=103.0.5060.53/
 
@@ -22,9 +24,12 @@ gem install cucumber, gem install rspec, gem install capybara, gem install selen
 
 bundle install(para instalar todas as dependecias)
 
-Usaram esses documentos do capybara,site_prism,cucumber, para fazer projeto:
+Usei esses documentos do capybara,site_prism,cucumber, para fazer projeto:
+
 https://github.com/teamcapybara/capybara
+
 https://github.com/site-prism/site_prism
+
 https://github.com/cucumber/cucumber-ruby
 
 cucumber --init (para rodar os projetos)
